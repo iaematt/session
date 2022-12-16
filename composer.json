@@ -1,0 +1,32 @@
+{
+    "name": "iaematt/session",
+    "description": "Complete session class",
+    "keywords": [
+        "session",
+        "php",
+        "Matheus Bastos"
+    ],
+    "homepage": "https://github.com/iaematt",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Bastos",
+            "email": "matheusbastos@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iaematt\\": "source/"
+        }
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "vendor\\bin\\phpunit"
+    }
+}
